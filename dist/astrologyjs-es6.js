@@ -2774,7 +2774,7 @@ var chart = createCommonjsModule(function (module, exports) {
                                 case 0:
                                     _context2.next = 2;
                                     return rp_1.default({
-                                        uri: "http://www.morphemeris.com/ephemeris.php",
+                                        uri: "http://morphemeris.dev/ephemeris.php",
                                         qs: {
                                             date: date,
                                             lat: p.lat,
