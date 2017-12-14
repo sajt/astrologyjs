@@ -11,7 +11,7 @@ describe("A simple request-promise implementation", () => {
             }
         },
         http_request = {
-            uri: "http://morphemeris.dev/ephemeris.php",
+            uri: "http://morphemeris.test/ephemeris.php",
             qs: {
                 date: "1974-02-17T23:30Z",
                 lat: 37.4381927,

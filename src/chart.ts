@@ -192,7 +192,7 @@ export class Chart {
      */
     static async getChartData(date: string, p: Point): Promise<ChartData> {
         return await rp({
-            uri: "http://morphemeris.dev/ephemeris.php",
+            uri: "http://morphemeris.test/ephemeris.php",
             qs: {
                 date: date,
                 lat: p.lat,
